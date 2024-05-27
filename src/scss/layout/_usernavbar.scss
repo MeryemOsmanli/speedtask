@@ -1,0 +1,47 @@
+.usernav_background{
+    // background-color: red;
+    padding: 40px 0;
+.usernav_contain{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navbar_left{
+        width: 14%;
+        font-size: 30px;
+        height: 70px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+
+    }
+    .navbar_right{
+        width: 60%;
+        font-size: 30px;
+        div{
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 100px;
+                padding: 0 150px;
+                li{
+                    font-family: "Oswald", sans-serif;
+                    a{
+
+                        color: black;
+                    }
+                    a:hover{
+                        color: #e83e8c;
+                    }
+                }
+            
+            }
+        }
+
+    }
+}
+}

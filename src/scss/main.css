@@ -1,0 +1,303 @@
+.shop_now_background {
+  background-image: url("https://preview.colorlib.com/theme/florist/img/hero/hero-2.jpg.webp");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+.shop_now_background .shop_now_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  font-size: 30px;
+}
+.shop_now_background .shop_now_overlay div {
+  width: 40%;
+  padding: 40px;
+}
+.shop_now_background .shop_now_overlay div h2 {
+  font-size: 60px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  padding: 2rem 0 4rem 0;
+}
+.shop_now_background .shop_now_overlay div button {
+  padding: 1.5rem 2.7rem;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #e83e8c;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.icon_box_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 2rem 1rem;
+}
+.icon_box_container .icon_box {
+  width: 25%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 30px;
+}
+.icon_box_container .icon_box .icon_box_image {
+  width: 15%;
+  height: 70px;
+}
+.icon_box_container .icon_box .icon_box_image img {
+  height: 100%;
+  width: 100%;
+}
+.icon_box_container .icon_box .icon_box_text {
+  width: 85%;
+  height: 200px;
+  font-size: 30px;
+}
+.icon_box_container .icon_box .icon_box_text h5 {
+  font-size: 40px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+}
+.icon_box_container .icon_box .icon_box_text p {
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  color: #444444;
+  font-weight: 400;
+  padding: 1rem 0;
+}
+
+.new_arrivals_contain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.new_arrivals_contain div {
+  text-align: center;
+  padding: 1rem 0;
+}
+.new_arrivals_contain div button {
+  padding: 1rem;
+}
+.new_arrivals_contain div input {
+  padding: 1rem;
+}
+.new_arrivals_contain div p {
+  color: #e83e8c;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  font-family: "Quicksand", sans-serif;
+}
+.new_arrivals_contain div h5 {
+  font-size: 70px;
+  padding: 2rem 0;
+}
+.new_arrivals_contain div ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.new_arrivals_contain div ul li {
+  font-size: 30px;
+}
+
+.new_arrivals_box_contain {
+  width: 100%;
+  display: flex;
+  background-color: red;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 1rem 4rem;
+}
+.new_arrivals_box_contain .new_arrivals_box {
+  width: 18%;
+  background-color: darkkhaki;
+  text-align: center;
+}
+.new_arrivals_box_contain .new_arrivals_box .new_arrivals_image {
+  width: 100%;
+  height: 400px;
+}
+.new_arrivals_box_contain .new_arrivals_box .new_arrivals_image img {
+  width: 100%;
+  height: 100%;
+}
+.new_arrivals_box_contain p {
+  font-size: 30px;
+}
+.new_arrivals_box_contain h6 {
+  font-size: 30px;
+}
+
+.footer_image_container {
+  background-image: url("https://preview.colorlib.com/theme/florist/img/call-bg.jpg.webp");
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.footer_image_container .footer_image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  font-size: 30px;
+}
+.footer_image_container .footer_image_overlay div {
+  width: 40%;
+  padding: 40px;
+  color: white;
+}
+.footer_image_container .footer_image_overlay div h2 {
+  font-size: 60px;
+  font-family: "Hello Santtiny";
+  font-weight: 400;
+  padding: 2rem 0 4rem 0;
+}
+.footer_image_container .footer_image_overlay div .order_btn {
+  padding: 1.5rem 2.7rem;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #e83e8c;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.footer_image_container .footer_image_overlay div .contact_btn {
+  padding: 1.5rem 2.7rem;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #e83e8c;
+  border-radius: 40px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.footer_businessman_contain {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f5fa;
+}
+.footer_businessman_contain .businessman_left {
+  width: 20%;
+  height: 400px;
+}
+.footer_businessman_contain .businessman_left img {
+  width: 100%;
+  height: 100%;
+}
+.footer_businessman_contain .businessman_middle {
+  width: 40%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
+  padding: 0 2rem;
+}
+.footer_businessman_contain .businessman_middle p {
+  line-height: 1.5;
+}
+.footer_businessman_contain .businessman_middle h6 {
+  padding: 3rem 0;
+  font-size: 25px;
+  font-family: "Libre Baskerville", serif;
+}
+.footer_businessman_contain .businessman_middle span {
+  font-size: 20px;
+}
+.footer_businessman_contain .businessman_right {
+  width: 20%;
+  height: 400px;
+}
+.footer_businessman_contain .businessman_right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.usernav_background {
+  padding: 40px 0;
+}
+.usernav_background .usernav_contain {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.usernav_background .usernav_contain .navbar_left {
+  width: 14%;
+  font-size: 30px;
+  height: 70px;
+}
+.usernav_background .usernav_contain .navbar_left img {
+  width: 100%;
+  height: 100%;
+}
+.usernav_background .usernav_contain .navbar_right {
+  width: 60%;
+  font-size: 30px;
+}
+.usernav_background .usernav_contain .navbar_right div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 0 150px;
+}
+.usernav_background .usernav_contain .navbar_right div ul li {
+  font-family: "Oswald", sans-serif;
+}
+.usernav_background .usernav_contain .navbar_right div ul li a {
+  color: black;
+}
+.usernav_background .usernav_contain .navbar_right div ul li a:hover {
+  color: #e83e8c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  padding: 0 100px;
+}/*# sourceMappingURL=main.css.map */
